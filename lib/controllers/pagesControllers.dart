@@ -1,3 +1,4 @@
+import 'package:boobus/pages/busListPage.dart';
 import 'package:boobus/pages/busPage.dart';
 import 'package:flutter/material.dart';
 
@@ -23,11 +24,7 @@ class _PagesControllerState extends State<PagesController> {
         controller: _pageController,
         children: [
           BusPage(),
-          Container(
-            child: Center(
-              child: Text('My Tickets'),
-            ),
-          ),
+          BusListPage(),
           Container(
             child: Center(
               child: Text('Notifications'),
