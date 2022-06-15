@@ -1,0 +1,4 @@
+#Sat Jun 11 23:47:19 ICT 2022
+base.0=C\:\\Users\\aulia\\Documents\\ABP\\bb_mobile\\boobus\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
