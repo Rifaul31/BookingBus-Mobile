@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:boobus/models/bus_model.dart';
 
 class BusListPage extends StatefulWidget{
   @override
@@ -15,8 +16,9 @@ class _BusListPageState extends State<BusListPage> {
         children: <Widget>[
           Expanded (
             child: ListView.builder(
-            itemCount: 2,
+            itemCount: buses.length,
             itemBuilder: (BuildContext context, int index) {
+              Bus bus = buses[index];
               return Stack(
                 children: <Widget>[
                   Container(
@@ -32,15 +34,15 @@ class _BusListPageState extends State<BusListPage> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
-                            Text('BusName', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),),
-                            Text('BusPrice')
+                            Text(bus.busName, style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),),
+                            Text('\Rp.${bus.price}')
                           ],
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
-                            Text('BusType'),
-                            Text('Available Seats')
+                            Text(bus.busType),
+                            Text(bus.busSeats)
                           ],
                         ),
                         Row(
