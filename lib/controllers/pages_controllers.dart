@@ -1,5 +1,6 @@
 import 'package:boobus/pages/bus_list_page.dart';
 import 'package:boobus/pages/bus_page.dart';
+import 'package:boobus/pages/my_tickets.dart';
 import 'package:flutter/material.dart';
 
 class PagesController extends StatefulWidget {
@@ -24,7 +25,7 @@ class _PagesControllerState extends State<PagesController> {
         controller: _pageController,
         children: [
           BusPage(),
-          BusListPage(),
+          MyTicket(),
           Container(
             child: Center(
               child: Text('Notifications'),

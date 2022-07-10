@@ -1,3 +1,5 @@
-2022/06/16-00:43:43.532 61c Reusing MANIFEST C:\Users\aulia\AppData\Local\Temp\flutter_tools.8d4a66b5\flutter_tools_chrome_device.8fc5268c\Default\Site Characteristics Database/MANIFEST-000001
-2022/06/16-00:43:43.533 61c Recovering log #3
-2022/06/16-00:43:43.533 61c Reusing old log C:\Users\aulia\AppData\Local\Temp\flutter_tools.8d4a66b5\flutter_tools_chrome_device.8fc5268c\Default\Site Characteristics Database/000003.log 
+2022/07/11-04:58:26.646 38dc Log #3: 8 ops saved to Table #4 OK
+2022/07/11-04:58:26.646 38dc Archiving C:\Users\aulia\AppData\Local\Temp\flutter_tools.d10ae3da\flutter_tools_chrome_device.bb55bbf\Default\Site Characteristics Database/000003.log: OK
+2022/07/11-04:58:26.647 38dc Table #4: 8 entries OK
+2022/07/11-04:58:26.647 38dc Archiving C:\Users\aulia\AppData\Local\Temp\flutter_tools.d10ae3da\flutter_tools_chrome_device.bb55bbf\Default\Site Characteristics Database/MANIFEST-000001: OK
+2022/07/11-04:58:26.654 38dc **** Repaired leveldb C:\Users\aulia\AppData\Local\Temp\flutter_tools.d10ae3da\flutter_tools_chrome_device.bb55bbf\Default\Site Characteristics Database; recovered 1 files; 334 bytes. Some data may have been lost. ****

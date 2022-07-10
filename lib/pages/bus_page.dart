@@ -1,8 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dropdown_search/dropdown_search.dart';
 import 'package:intl/intl.dart';
 import 'dart:convert';
+import 'package:boobus/models/bus_model.dart';
+import 'package:boobus/pages/bus_list_page.dart';
 
 class BusPage extends StatefulWidget {
   @override
@@ -139,9 +140,18 @@ class _BusPageState extends State<BusPage> {
               ElevatedButton(
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(content: Text('Processing Data'))
-                    );
+                    buses = [];
+                    setVariables(_selectedDate, _departure, _destination, _seats);
+                    getBus();
+                    if (buses == []) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text('No Bus Schedule Found'))
+                      );
+                    } else {
+                      Navigator.push(
+                        context, MaterialPageRoute(builder: ((context) => BusListPage()))
+                      );
+                    }
                   }
                 },
                 child: const Text("Search")

@@ -1,3 +1,2 @@
-2022/06/21-20:28:12.394 4954 Reusing MANIFEST C:\Users\aulia\AppData\Local\Temp\flutter_tools.5ba60ef3\flutter_tools_chrome_device.e50a1515\Default\Service Worker\Database/MANIFEST-000001
-2022/06/21-20:28:12.395 4954 Recovering log #3
-2022/06/21-20:28:12.395 4954 Reusing old log C:\Users\aulia\AppData\Local\Temp\flutter_tools.5ba60ef3\flutter_tools_chrome_device.e50a1515\Default\Service Worker\Database/000003.log 
+2022/07/11-05:00:56.239 ab8 Creating DB C:\Users\aulia\AppData\Local\Temp\flutter_tools.d10ae3da\flutter_tools_chrome_device.bb55bbf\Default\Service Worker\Database since it was missing.
+2022/07/11-05:00:56.250 ab8 Reusing MANIFEST C:\Users\aulia\AppData\Local\Temp\flutter_tools.d10ae3da\flutter_tools_chrome_device.bb55bbf\Default\Service Worker\Database/MANIFEST-000001
